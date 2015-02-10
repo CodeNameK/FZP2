@@ -4,7 +4,7 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class MinelifeArmor {
+public class FizzyclubArmor {
 	
 	public static int ItemID = 3500;
 	

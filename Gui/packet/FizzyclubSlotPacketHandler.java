@@ -7,12 +7,12 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.network.INetworkManager;
 import net.minecraft.network.packet.Packet250CustomPayload;
 import net.minecraft.world.World;
-import FizzyClubMods.MainMinelife;
+import FizzyClubMods.MainFizzyclubSlot;
 import cpw.mods.fml.common.network.FMLNetworkHandler;
 import cpw.mods.fml.common.network.IPacketHandler;
 import cpw.mods.fml.common.network.Player;
 
-public class MinelifePacketHandler
+public class FizzyclubSlotPacketHandler
   implements IPacketHandler
 {
   public void onPacketData(INetworkManager manager, Packet250CustomPayload packet, Player player)
@@ -41,7 +41,7 @@ public class MinelifePacketHandler
       case 1:
         if (!world.isRemote)
         {
-          FMLNetworkHandler.openGui(eplayer, MainMinelife.instance, 1, world, x, y, z);
+          FMLNetworkHandler.openGui(eplayer, MainFizzyclubSlot.instance, 1, world, x, y, z);
         }
         break;
       }

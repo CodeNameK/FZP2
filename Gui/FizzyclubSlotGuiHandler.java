@@ -7,7 +7,7 @@ import FizzyClubMods.Gui.Funtion.INVFunction;
 import FizzyClubMods.Gui.Inv.MinelifeInv;
 import cpw.mods.fml.common.network.IGuiHandler;
 
-public class MinelifeGuiHandler
+public class FizzyclubSlotGuiHandler
 implements IGuiHandler
 {
 public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z)

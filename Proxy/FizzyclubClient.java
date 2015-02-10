@@ -12,7 +12,7 @@ import FizzyClubMods.entity.render.RenderCustomPlayer;
 import cpw.mods.fml.client.registry.KeyBindingRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 
-public class MinelifeClient extends MinelifeServer{
+public class FizzyclubClient extends FizzyclubServer{
 
 	
 	  public void renderPlayer()
